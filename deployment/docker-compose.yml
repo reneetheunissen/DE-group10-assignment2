@@ -40,7 +40,7 @@ services:
       - JUPYTER_ENABLE_LAB=yes
     # Volumes to use
     volumes:
-	# Jovyan is the default user and should not be changed
+    # Jovyan is the default user and should not be changed
       - notebooks:/home/jovyan/notebooks
       - spark-data:/home/jovyan/data
       - spark-checkpoint:/home/jovyan/checkpoint
