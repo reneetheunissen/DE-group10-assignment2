@@ -6,13 +6,13 @@ volumes:
   spark-data:
     driver_opts:
       type: none
-      device: /home/r_h_theunissen/data
+      device: /home/r_h_theunissen/DE-group10-assignment2/data
       o: bind
   # Get the notebooks
   notebooks:
     driver_opts:
       type: none
-      device: /home/r_h_theunissen/notebooks
+      device: /home/r_h_theunissen/DE-group10-assignment2/notebooks
       o: bind
 
 # Specify the services
